@@ -1,12 +1,15 @@
 #include<stdio.h>
+#include<unistd.h>
+#include <string.h>
 /**
-*main - is the main function of our program
-*Description: print the text without use printf, put
-*Return: one
+* main - Entry point
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
-char *word = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-while (*word) putchar (*word++);
+char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+size_t len = strlen(str);
+fwrite(str, sizeof(char), len, stdout);
 return (1);
 }
