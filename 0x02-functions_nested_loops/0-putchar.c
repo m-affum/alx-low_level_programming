@@ -1,8 +1,8 @@
 #include "main.h"
-/*
- * Prints putchar to the standard output'
- * Main -entry point
- * Returns (0),void 
+/**
+ *main - Entry point
+ *
+ *Return: nothing(0), return void
  */
 int main(void)
 {
@@ -14,6 +14,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 
-return (0);
-}
+	return (0);
