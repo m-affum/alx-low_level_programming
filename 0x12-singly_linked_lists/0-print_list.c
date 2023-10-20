@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
-*print_list - prints the elements of the list_t array
-*@h: the list to be printed
-*Return: returns nodes conted 
+*print_list - prints all the elements of a list_t list.
+*@h: the list to be used
+*Return: returns the count of nodes.
 */
 size_t print_list(const list_t *h)
 {
