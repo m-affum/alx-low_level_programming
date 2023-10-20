@@ -1,9 +1,8 @@
 #include "lists.h"
 /**
-*list_len - prottotye to returns the number of elements
-in the linked list_t list
-*@h: the list to be used in linked list
-*Return: the count of nodes
+*list_len -  returns the number of elements in a linked list_t list
+*@h: list being used
+*Return: the node count
 */
 size_t list_len(const list_t *h)
 {
