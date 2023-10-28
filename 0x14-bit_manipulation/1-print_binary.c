@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_binar: prints the binary representation of number
+*print_binary - prints the binary representation of number
 *@n: number to be used
 *Return:void
 */
